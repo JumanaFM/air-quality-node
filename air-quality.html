@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('air quality model',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"air quality model";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="air quality model">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="air quality model">
+    <p>Drag this node if you want to calculate the quality of air</p>
+</script>

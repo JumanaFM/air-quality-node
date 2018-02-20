@@ -1,0 +1,24 @@
+{
+  "name": "air-quality-node",
+  "version": "1.0.0",
+  "description": "This is a model that calculate air quality from stations. This model is packaged as a node for node-red",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JumanaFM/air-quality-node.git"
+  },
+  "author": "Jumana Almahmoud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JumanaFM/air-quality-node/issues"
+  },
+  "homepage": "https://github.com/JumanaFM/air-quality-node#readme",
+  "node-red" : {
+    "nodes": {
+        "air quality model": "air-quality.js"
+    }
+  }
+}
